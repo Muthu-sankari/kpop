@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kpop</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+   
+    <div class="navbar">
+        <h1>Kpop</h1>
+    </div>
+
+        <div class="container">
+        
+            <div class="kpop">
+                <h2>true beauty</h2>
+                <h5>Kim Sang-hyeop</h5>
+                <p>True Beauty is a Korean drama (K-drama) TV series about a high schooler who transforms herself into a "goddess" after learning makeup skills from online tutorials: 
+                    Im Ju-Kyung, a high school student with a complex about her appearance, learns to use makeup to hide her bare face. She becomes famous and gets involved with two men, Lee Soo-Ho and Han Seo-Joon</p>
+           <button onclick="deleteseries(event)">Delete</button>
+            </div>
+        </div>
+        <div class="popup-overlay"></div>
+        <div class="popup-box">
+            <h2>Add Series</h2>
+            <form>
+                <input type="text" placeholder="Drama Name" id="Drama-title-input">
+                <input type="text" placeholder="Director" id="Director-input">
+                <textarea placeholder="short description" id="Drama-description-input"></textarea>
+                <button id="add-series">ADD</button>
+                <button id="cancel">CANCEL</button>
+            </form>
+        </div>
+<button class="add-button" id="add-popup">+</button>
+        <script src="script.js"></script>
+</body>
+</html>
